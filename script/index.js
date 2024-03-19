@@ -4,7 +4,7 @@ insertEventIO(72, 1);
 insertEventIO(73, 2, 2);
 insertEventIO(74, 2, 2);
 // const data = toHexString();
-const data = "00000000000000167e010000000000000be800000000000000000000000000000100008612";
+const data = "00000000000000247e01000000000000080e000000040002004701004801000200490002004a00020000000000000100008612";
 console.log(`This is hex data to send: ${data}`);
 
 const { parseHexString } = require("./server");
